@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-giphy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Giphy MCP — wraps Giphy API (public beta key, free)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-016e993c104bbc66783b22958bf37a59f545fcbd20b59a72b2e323fb2ffd2b61",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-1a9db37626fc1fcaccb72fe7fe8eb7276c39a1313849569a0e5c99cea0cbd761",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }

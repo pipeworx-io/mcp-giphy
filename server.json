@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/giphy",
   "title": "Giphy",
   "description": "Giphy MCP — wraps Giphy API (public beta key, free)",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/giphy",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-giphy",

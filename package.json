@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-giphy",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Giphy MCP — wraps Giphy API (public beta key, free)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-giphy": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "giphy"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-giphy.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/giphy",
   "pipeworx": {
-    "sourceHash": "v1-1f545f58c19e4a904030476b35e33c35008962951ea691b72afc44dcddb2a408",
-    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
+    "mode": "gateway",
+    "slug": "giphy",
+    "gatewaySlug": "giphy",
+    "sourceHash": "v1-03560218cbe628ecb08b34b52e4651a0a6da7866c0ce944d9a5ebc53b6980a4e",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }

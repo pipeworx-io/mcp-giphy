@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-giphy",
-  "version": "0.2.1",
-  "description": "Giphy MCP — wraps Giphy API (public beta key, free)",
+  "version": "0.2.2",
+  "description": "Unofficial Giphy MCP — wraps Giphy API (public beta key, free)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "giphy",
     "gatewaySlug": "giphy",
-    "sourceHash": "v1-17f74fc414d2eaf46821d8fceb6daf2b1d509b0b41332d47d32844e499c4cf38",
-    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
+    "sourceHash": "v1-015eaf39e828f5d32d7ffba6211e61cc987919cea29d1bf904b648dc0afe1bec",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }
